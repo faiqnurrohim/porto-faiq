@@ -4,13 +4,13 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 text-white relative overflow-hidden">
-      <h1 className="text-5xl font-bold mb-8 animate-fadeIn">Selamat Datang!</h1>
-      <p className="text-3xl mb-8 animate-fadeIn">Mari mengenal saya lebih dekat</p>
+      <h1 className="text-3xl font-bold mb-8 animate-fadeIn">Selamat Datang!</h1>
+      <p className="text-2xl mb-8 animate-fadeIn">Mari mengenal saya lebih dekat</p>
       <Image
         src="/images/profile.jpg"
         alt="Foto Profil"
-        width={350}
-        height={350}
+        width={150}
+        height={150}
         className="rounded-full transition-transform transform hover:scale-110 duration-500 mb-8"
       />
       <nav className="absolute top-8 right-8 space-x-4 animate-slideInFromRight">
